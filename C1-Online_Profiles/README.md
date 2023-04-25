@@ -22,3 +22,4 @@ You will need to upload a .PDF of your resume to this repo, or connect with your
 
 https://www.linkedin.com/in/jacob-dawdy-121369183/
 https://github.com/jdawdy/
+![Resume1](https://user-images.githubusercontent.com/118224479/234146662-f507070d-8c10-4b65-aa04-3593ea69601b.png)
