@@ -1,0 +1,31 @@
+**CODING CHALLENGE 1**
+function calculateTriangleArea(base, height) {
+  let area = (base * height) / 2;
+  return area;
+}
+
+
+**CODING CHALLENGE 2**
+function minMax(arr) {
+	let min = Math.min.apply(null, arr);
+	let max = Math.max.apply(null, arr);
+	
+	return [min, max];
+}
+
+
+**CODING CHALLENGE 3**
+function FirstReverse(str) { 
+
+  // code goes here 
+  let splitString = str.split("");
+  let reverseString = splitString.reverse();
+  let joinString = reverseString.join("");
+  str = joinString;
+
+  return str; 
+
+}
+   
+// keep this function call here 
+console.log(FirstReverse(readline()));
