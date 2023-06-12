@@ -60,6 +60,29 @@ class Main {
 }
 
 **CODING CHALLENGE 5**
+function detectWord(str) {
+	const word = [];
+  let position = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    const letter = str[i];
+    if (letter === letter.toLowerCase()) {
+      word.push(letter);
+      position++;
+    } else {
+      const uppercaseLetter = letter.toUpperCase();
+      if (uppercaseLetter === letter) {
+        if (position < word.length && word[position] === uppercaseLetter.toLowerCase()) {
+          position++;
+        }
+      }
+    }
+  }
+
+  return word.join("");
+}
+
+**CODING CHALLENGE 6**
 class Person {
 	constructor(name, age) {
 		this.name = name;
